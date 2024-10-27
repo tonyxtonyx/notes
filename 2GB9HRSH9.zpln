@@ -1,8 +1,8 @@
 {
  "paragraphs": [
   {
-   "text": "%md\n\nThis tutorial is for how to use customize R runtime environment via conda in yarn mode.\nIn this approach, the R interpreter runs in yarn container instead of in the zeppelin server host. And remmeber this only works for IRKernel(`%r.ir`) but not for vanilla R(`%r.r`), so make sure you include the following python packages in your conda env.\n* python\n* jupyter\n* grpcio\n* protobuf\n* r-base\n* r-essentials\n* r-irkernel\n\n\n\n",
-   "user": "anonymous",
+   "text": "Это второй!"
+    "user": "anonymous",
    "dateUpdated": "2021-08-09 10:55:29.815",
    "progress": 0,
    "config": {
