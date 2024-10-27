@@ -1,8 +1,8 @@
 {
   "paragraphs": [
     {
-      "title": "Introduction one new shit",
-      "text": "%md\n\n# abc Introduction\n\n\nTypically there\u0027re 3 essential steps for building one flink job. And each step has its favorite tools.\n\n* Define source/sink (SQL DDL)\n* Define data flow (Table Api / SQL)\n* Implement business logic (UDF)\n\nThis tutorial demonstrates how to build one typical flinkjob  via these 3 steps and their favorite tools.\nIn this demo, we will do real time analysis of cdn access data. First we read cdn access log from kafka queue and do some processing and aggregation, then write the result to mysql database. We use this [docker](https://zeppelin-kafka-connect-datagen.readthedocs.io/en/latest/) to create kafka cluster and source data. You need to prepare mysql database by yourself. \n\n* Make sure you add the following ip host name mapping to your hosts file, otherwise you may not be able to connect to the kafka cluster in docker\n\n```\n127.0.0.1   broker\n```\n\nUse the following command to generate the sample data.\n\n```\ncurl -X POST http://localhost:8083/connectors \\\n-H \u0027Content-Type:application/json\u0027 \\\n-H \u0027Accept:application/json\u0027 \\\n-d @cdn.source.datagen.json\n```",
+      "title": "Introduction",
+      "text": "%md\n\n# Introduction\n\n\nTypically there\u0027re 3 essential steps for building one flink job. And each step has its favorite tools.\n\n* Define source/sink (SQL DDL)\n* Define data flow (Table Api / SQL)\n* Implement business logic (UDF)\n\nThis tutorial demonstrates how to build one typical flinkjob  via these 3 steps and their favorite tools.\nIn this demo, we will do real time analysis of cdn access data. First we read cdn access log from kafka queue and do some processing and aggregation, then write the result to mysql database. We use this [docker](https://zeppelin-kafka-connect-datagen.readthedocs.io/en/latest/) to create kafka cluster and source data. You need to prepare mysql database by yourself. \n\n* Make sure you add the following ip host name mapping to your hosts file, otherwise you may not be able to connect to the kafka cluster in docker\n\n```\n127.0.0.1   broker\n```\n\nUse the following command to generate the sample data.\n\n```\ncurl -X POST http://localhost:8083/connectors \\\n-H \u0027Content-Type:application/json\u0027 \\\n-H \u0027Accept:application/json\u0027 \\\n-d @cdn.source.datagen.json\n```",
       "user": "anonymous",
       "dateUpdated": "2021-07-26 04:42:10.375",
       "progress": 0,
@@ -603,7 +603,7 @@
       "status": "FINISHED"
     },
     {
-      "text": "%flink.ipyflink\n вот тут добавил кое-чего",
+      "text": "%flink.ipyflink\n",
       "user": "anonymous",
       "dateUpdated": "2020-04-27 16:38:45.464",
       "progress": 0,
