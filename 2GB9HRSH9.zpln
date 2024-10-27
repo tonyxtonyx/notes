@@ -212,7 +212,7 @@
    "status": "FINISHED"
   },
   {
-   "title": "Base plotting",
+   "title": "Base plotting изменил вот тут название",
    "text": "%r.ir\n\npairs(iris)\n",
    "user": "anonymous",
    "dateUpdated": "2021-08-09 10:57:16.155",
